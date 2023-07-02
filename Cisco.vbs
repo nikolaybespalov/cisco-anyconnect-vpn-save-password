@@ -4,11 +4,11 @@ PASSWORD = "SET_YOUR_PASSWORD_HERE"
 
 Set WshShell = WScript.CreateObject("WScript.Shell")
 
-WshShell.Run """%PROGRAMFILES(x86)%\Cisco\Cisco AnyConnect Secure Mobility Client\vpnui.exe"""
+WshShell.Run """%PROGRAMFILES(x86)%\Cisco\Cisco Secure Client\UI\csc_ui.exe"""
 
 WScript.Sleep 2000
 
-WshShell.AppActivate "Cisco AnyConnect Secure Mobility Client"
+WshShell.AppActivate "Cisco Secure Client"
 
 WshShell.SendKeys "{TAB}"
 WshShell.SendKeys "{TAB}"
